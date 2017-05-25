@@ -50,5 +50,5 @@ development:
 production:
   <<: *default
   database: ngCrudRails
-  username: ngCrudRails
-  password: <%= ENV['NGCRUDRAILS_DATABASE_PASSWORD'] %>
+  username: root
+  password: admin
