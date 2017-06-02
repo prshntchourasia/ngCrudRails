@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock "3.8.1"
 
-set :application, "ngCrudRails"
-set :repo_url, "https://github.com/prshntchourasia/ngCrudRails.git"
+set :application, 'ngCrudRails'
+set :repo_url, 'git@github.com:prshntchourasia/ngCrudRails.git'
 set :deploy_to, "/var/www/cap/ngCrudRails"
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
